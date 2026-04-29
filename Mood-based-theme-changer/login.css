@@ -1,0 +1,106 @@
+body {
+  min-height: 100vh;
+  margin: 10vmin;
+  background: linear-gradient(#5f0380,
+      #f1c227,
+      #e11717);
+  background-size: 300% 300%;
+  text-align: center;
+  justify-content: center;
+}
+
+.formDiv.labelLogin {
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  font-size: 3.5 vmin;
+  color: #260134;
+  gap: 3vmin;
+  padding: 1vmin;
+
+}
+
+.form input {
+  width: 0.5vmin;
+  padding: 2vmin;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+/* .password {
+  font-size: 3.5 vmin;
+} */
+
+.outerDiv h1 {
+  font-size: 4vmin;
+  text-align: center;
+  font-weight: 2vmin;
+  position: absolute;
+  top: 10%;
+  left: 23%;
+  font-family: cursive;
+  color: #260134;
+  text-shadow: 4vmin;
+}
+
+.subBtn {
+  font-size: 2vmin;
+  height: 3.5vmin;
+  width: 10vmin;
+  border-radius: 1vmin;
+  background-color: #260134;
+  color: aliceblue;
+  margin-top: 3vmin;
+
+}
+
+input {
+  font-size: 2vmin;
+  text-align: center;
+}
+
+input:hover::placeholder {
+  color: #750b9c;
+  font-size: 2.8 vmin;
+  border-radius: 1vmin;
+
+}
+
+input:hover,
+input:focus {
+  box-shadow: 0 0 1.5vmin #ef7ec2;
+}
+
+.outerDiv {
+  margin: 0vmin;
+  background-color: rgb(230, 213, 213);
+  border-radius: 1vmin;
+  height: 70vmin;
+  width: 50vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+
+}
+
+p {
+  font-size: 2vmin;
+  text-align: center;
+  color: #260134;
+
+}
+
+h3 {
+  font-size: 2vmin;
+  color: #260134;
+  text-align: end;
+  position: absolute;
+  bottom: 1%;
+  right: 15%;
+}

@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(246, 237, 228);
+
+}
+
+h1 {
+  color: #260134;
+  font-size: 3vmin;
+  text-align: center;
+
+}
+
+
+.btnContainer {
+  height: 40vmin;
+  width: 80vmin;
+  border-radius: 1vmin;
+  background-color: rgba(200, 153, 244, 0.23);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3vmin;
+  padding-top: 3vmin;
+
+
+}
+
+.moodBtn {
+  background-color: #260134;
+
+  height: 5vmin;
+  width: 10vmin;
+  margin: 0.5vmin;
+  border-radius: 0.5vmin;
+  font-size: 3.5vmin;
+  gap: 50vmin;
+
+}
+
+.moodBtn:active {
+  transform: scale(0.95);
+}
+
+.container {
+  height: 20vmin;
+  width: 80vmin;
+  background-color: rgba(200, 154, 244, 0.23);
+  border-radius: 0.5vmin;
+
+
+}
+
+.topPara {
+  font-size: 2.5vmin;
+  text-align: center;
+  color: #260134;
+  margin-top: 2vmin;
+
+}
+
+.MoodSlider {
+  display: block;
+  margin: 5vmin auto;
+  width: 20vmin;
+  background: #260134;
+
+}
+
+
+.heart {
+  position: fixed;
+  top: -20vmin;
+  color: rgb(59, 3, 3);
+  font-size: 3vmin;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+
+}
+
+body.heart {
+  background-color: rgb(232, 208, 179);
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
